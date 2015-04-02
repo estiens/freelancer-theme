@@ -6,8 +6,8 @@
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.location }}</h3>
                         <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
+                            {% for address in site.address %}
+                                {{ address.line }} <br>
 		                    {% endfor %}
                         </p>
                     </div>
@@ -28,11 +28,16 @@
                 </div>
             </div>
         </div>
+        <ul id="quotes" style="display:none">
+            {% for header in site.data.headers %}
+                <li>{{header.name}}</li>
+            {% endfor %}
+        </ul>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        <a class="quote" href="#page-top" id="random-header"></a>
                     </div>
                 </div>
             </div>

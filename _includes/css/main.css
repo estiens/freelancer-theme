@@ -1,8 +1,34 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
+.set-img {
+    width: 200px;
+    margin:auto;
+    -webkit-transition:-webkit-filter 2s ease-in-out;
+    -moz-transition: filter 2s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+
+.blue-text h2{
+    color: #1485CC!important
+}
+
+
+.songs {
+    margin-bottom: 20px;
+}
+.set-title {
+    font-size: 2em;
+    text-align: center;
+    margin-top: -5px;
+    color: white;
+    -webkit-transition: color 1s ease-in-out;
+    -moz-transition: color 1s ease-in-out;
+}
+
+.set-title:hover {
+    text-decoration: none;
+}
 
 body {
     overflow-x: hidden;
@@ -31,8 +57,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: lowercase;
+    font-family: "Vollkorn", serif;
     font-weight: 700;
 }
 
@@ -48,22 +74,22 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\1F701 \1F702 \1F703 \1F704";
     display: inline-block;
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: serif;
     font-size: 2em;
+    opacity:.8;
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #000;
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #{{ site.color.primary }};
+    border-color: #ccc;
 }
 
 hr.star-primary {
@@ -82,7 +108,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #000
 }
 
 header .container {
@@ -95,10 +121,24 @@ header img {
     margin: 0 auto 20px;
 }
 
+.rounded-logo {
+    border-radius:100px;
+}
+
+#random-header {
+    font-family: "Vollkorn", serif;
+    font-size:.8em;
+    color: white;
+}
+
+#random-header:hover {
+    text-decoration: none;
+}
+
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: lowercase;
+    font-family: Vollkorn, serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -125,7 +165,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 0px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -148,8 +188,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Vollkorn, serif;
     font-weight: 700;
 }
 
@@ -181,7 +220,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #1485CC;
 }
 
 @media(max-width:767px) {
@@ -344,7 +383,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #000;
 }
 
 .btn-social {
@@ -387,13 +426,15 @@ footer .footer-below {
 
 .portfolio-modal .modal-content {
     padding: 100px 0;
-    min-height: 100%;
+    min-height: 80%;
     border: 0;
     border-radius: 0;
     text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color:rgba(255,255,255,.9);
+    color: black;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -428,7 +469,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color: black;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -438,7 +479,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: black;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

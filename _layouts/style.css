@@ -1,2 +1,6 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+
+.padding-bottom {
+  padding-bottom: 40px;
+}

@@ -379,6 +379,9 @@ section.success {
     border-left: 1px solid #eee;
 }*/
 
+.btn:hover {
+    background-color: #1485CC
+}
 .floating-label-form-group-with-value label {
     top: 0;
     opacity: 1;

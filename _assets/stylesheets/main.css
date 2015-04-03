@@ -40,10 +40,14 @@
 }
 
 .set-title {
+    position: absolute;
+    margin-top:100px;
+    width: 10em;
     font-size: 1.5em;
     text-align: center;
     color: rgba(0,0,0,.5);
     color: white;
+    display:none;
     -webkit-transition: color 1s ease-in-out;
     -moz-transition: color 1s ease-in-out;
 }

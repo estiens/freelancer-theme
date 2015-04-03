@@ -9,14 +9,16 @@ $ ->
   $('#random-header').html(quote)
   $(".set-img").hover(
     (ev) ->
-      randIndex = Math.floor((Math.random() * 100) - 50)
+      randIndex = Math.floor((Math.random() * 200) - 100)
       $(this).velocity({rotateZ: randIndex, 500})
       $(this).css("-webkit-filter": "invert(0)")
       $(this).css("filter": "invert(0)")
       $(this).parent().parent().parent().find('.set-title').css("color":"#FD6E8A");
+      $(this).parent().parent().parent().find('.set-title').fadeIn("slow");
     (ev) ->
-      $(this).parent().parent().parent().find('.set-title').css("color":"white");)
-      # $(this).parent().parent().find('.title').velocity({"margin-top": "+=100px" }))
+      $(this).parent().parent().parent().find('.set-title').css("color":"white");
+      $(this).parent().parent().parent().find('.set-title').hide();)
+
   animationFields = $('.set-img')
 
   changeColor = (field) ->

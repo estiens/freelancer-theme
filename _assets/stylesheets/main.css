@@ -46,8 +46,7 @@
     margin-top: -50px;
     margin-left: 100px;
     color: rgba(0,0,0,.5);
-    position:absolute;
-    display:none;
+    color: white;
     -webkit-transition: color 1s ease-in-out;
     -moz-transition: color 1s ease-in-out;
 }
@@ -218,6 +217,10 @@ header .intro-text .skills {
     font-family: "Vollkorn", serif;
     font-weight: 700;
     font-size: 2em;
+}
+
+.navbar li a:hover {
+    color:black!important;
 }
 
 .navbar a:focus {

@@ -1,6 +1,3 @@
----
----
-
 $ ->
   headers = $("#quotes")
   quotes = []
@@ -12,7 +9,7 @@ $ ->
   $(".set-img").hover(
     (ev) ->
       randIndex = Math.floor((Math.random() * 100) - 50)
-      # $(this).velocity({rotateZ: randIndex, 500})
+      $(this).velocity({rotateZ: randIndex, 500})
       $(this).css("-webkit-filter": "invert(0)")
       $(this).css("filter": "invert(0)")
       $(this).parent().parent().find('.set-title').css("color":"rgba(0,0,0,.9)")

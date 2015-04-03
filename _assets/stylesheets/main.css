@@ -48,7 +48,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #CCC;
 }
 
 h1,
@@ -93,11 +93,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #FD6E8A;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: #FD6E8A;
     background-color: #fff;
 }
 
@@ -304,7 +304,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #CCC;
     background: #fff;
 }
 
@@ -346,10 +346,10 @@ section.success {
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
+/*.floating-label-form-group::not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
-}
+}*/
 
 .floating-label-form-group-with-value label {
     top: 0;
@@ -357,7 +357,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #ccc;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -374,7 +374,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #FD6E8A;
 }
 
 footer .footer-col {

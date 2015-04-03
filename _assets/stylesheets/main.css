@@ -217,6 +217,7 @@ header .intro-text .skills {
 .navbar {
     font-family: "Vollkorn", serif;
     font-weight: 700;
+    font-size: 2em;
 }
 
 .navbar a:focus {

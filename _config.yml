@@ -5,7 +5,7 @@ url: http://www.growltiger23.com
 description: "Growltiger was a Bravo Cat, who lived upon a barge,In fact he was the roughest cat that ever roamed at large. From Gravesend up to Oxford he pursued his evil aims, Rejoicing in his title of The Terror of the Thames."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
-# contact: static
+contact: static
 
 # Build settings
 markdown: kramdown

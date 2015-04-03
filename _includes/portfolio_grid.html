@@ -8,12 +8,15 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
+                {% assign posts = site.posts | shuffle %}
+                {% for post in posts %}
                     <div class="col-sm-4 songs">
                         <a href="#djset-modal-{{ post.modal-id }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
-                            <img src="{{ post.img | prepend: 'portfolio/' | asset_path }}" class="set-img img-responsive" id="{{ post.image_id }}" alt="{{ post.alt }}">
+                            {% if post.img %}
+                                <img src="{{ post.img | prepend: 'portfolio/' | asset_path }}" class="set-img img-responsive" alt="{{ post.alt }}">
+                            {% endif %}
                         </a>
-                        <div class="set-title" style="font-size:.8em">{{post.title}}</div>
+                        <div class="set-title">{{post.title}}</div>
                     </div>
                 {% endfor %}
             </div>

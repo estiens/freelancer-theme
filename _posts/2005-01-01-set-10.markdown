@@ -1,0 +1,15 @@
+---
+layout: default
+title: Live @ Prowl The Italian (Feb 2015)
+modal-id: 2
+date: 2014-07-18
+img: antimony.png
+alt: alchemy-antimony-symbol
+music_types: techno, tech house, minimal techno
+description: Who doesn't dream of techno during the Italian summertime?
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/prowl-the-italian/
+download_url: http://cl.ly/0Y0M1I3W2z0l/download/prowltheitalian.mp3
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=3037c767-74a3-47c9-8d2c-6d9ae6f92a59&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fprowl-the-italian%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+
+
+---

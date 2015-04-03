@@ -3,31 +3,37 @@
     <div class="portfolio-modal modal fade" id="djset-modal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+                <div class="close-icon">{% icon fa-close %}</div>
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-10">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2 style="padding-bottom:50px">{{ post.title }}</h2>
                             <p>{{ post.description }}</p>
-                            {% if post.download_link %}
-                                <p> Download: <a href="{{post.download_link}}">{{ post.download_link }}</a></p>
+                            {% if post.download_url %}
+                                <p class="download-link"><a href="{{post.download_url}}">DOWNLOAD IT HERE {% icon fa-cloud-download %}</a></p>
                             {% endif %}
                             {% if post.mixcloud_url %}
-                                <div class="less-fancy-video-header">
-                                    <iframe width = "100%"
+                            <div class="row">
+                                <div class="col-lg-10 col-lg-pull-1 col-lg-push-1">
+                                    <div class="less-fancy-video-header" style="padding-top: 50px">
+                                        <iframe width = "100%"
+                                        height = "100px"
                                         class="mixcloud-embed"
                                         src="{{post.mixcloud_url}}"
                                         frameborder="0"
                                         allowfullscreen="true"
-                                    ></iframe>
+                                        ></iframe>
+                                    </div>
                                 </div>
+                            </div>
                             {% endif %}
-                            {{ post.category }}
+                            <div class="row">
+                                <div class="col-lg-10 col-lg-pull-1 col-lg-push-1">
+                                    {{ post.music_types }}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

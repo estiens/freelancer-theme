@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 12
+date: 2014-07-17
+img: sulphur.png
+alt: image-alt
+title: down the rabbithole
+description: one of my first mixes and still one of my favorites. WINTER SOLSTICE 2008 - Down the Rabbithole (distortion+delay mix) -for matthew and marcel- do you remember your first time? do you remember who you were with? another glitch-hop mix all chopped screwed glitched and, this time around, slathered with trance and dark ambient – where else are you going to find too short, public enemy, digweed, dubfire, glitch mob side projects, khia, and excerpts from Pi and Japanese horror movies in the same mix? get yourself up the creek without a paddle, finding your way home is half the fun. mostly mixed while curled up in bed under the influence of the flu. turntables are for those who lack imagination.
+music_types: illbient, gitch-hop, trance, hip hop
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/downtherabbithole/ 
+download_url: http://cl.ly/2P1R1O3O2Y1s/download/down%20the%20rabbithole.mp3
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=0d71af15-c34f-490e-bc71-531ab9f9268c&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fdowntherabbithole%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+
+---

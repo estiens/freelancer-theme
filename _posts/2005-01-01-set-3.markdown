@@ -1,17 +1,17 @@
 ---
 layout: default
-modal-id: 1
-image_id: foo
-date: 2014-07-18
-img: noun_fire_88157.png
-alt: image-alt
-date: April 2014
-music_types: techno, house
-unicode: \2625
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-mixcloud_direct_link: https://www.mixcloud.com/growltiger23/3-2-1-blastoff/
-download_url: http://www.dropbox.com
-mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=0f246e28-e144-415d-9f8e-404e55be2917&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2F3-2-1-blastoff%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+modal-id: 6
+date: 2014-07-17
+img: fire.png
+alt: fire-alchemy-symbol
+title: we remember PLUR
+music_types: old-school techno
+description: Old-school techno set. Most tracks lovingly ripped from digitized mid-90s mixtapes (a few remastered versions) and mixed in Ableton. One Green Velvet track from the early 2000s because, Green Velvet.
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/we-remember-plur/
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=9673e344-07f5-4bdd-8cc3-0d2030eb96fb&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fwe-remember-plur%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0" frameborder="0"
+download_url: http://cl.ly/2z1s1f1q0J1c/download/Old%20School%20Techno.mp3
+
 
 
 ---
+

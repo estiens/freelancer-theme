@@ -1,17 +1,16 @@
 ---
 layout: default
-modal-id: 1
-image_id: foo
-date: 2014-07-18
-img: noun_jupiter_88160.png
+modal-id: 7
+img: jupiter.png
 alt: image-alt
 date: April 2014
-music_types: techno, house
-unicode: \2625
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-mixcloud_direct_link: https://www.mixcloud.com/growltiger23/3-2-1-blastoff/
-download_url: http://www.dropbox.com
-mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=0f246e28-e144-415d-9f8e-404e55be2917&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2F3-2-1-blastoff%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+title: When birds were dinosaurs
+music_types: tech house, electro, acid
+description: oldie but a goodie. a straightforward tech-house, electro and acid set.
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/when-birds-were-dinosaurs-electro-was-acid/
+download_url: http://cl.ly/2L2d0d322G14/download/Birds%20Were%20Dinosaurs.mp3
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=8c684dac-fd9c-4f31-8c1d-2838b19b2f64&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fwhen-birds-were-dinosaurs-electro-was-acid%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
 
 
 ---
+

@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 9
+date: 2014-07-14
+img: pluto.png
+alt: image-alt
+title: last night a dj ate my wife
+music_types: dubstep, hiphop, IDM, breaks
+description: a glitched out tour through hiphop, IDM, dubstep and breaks
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/last-night-a-dj-ate-my-wife/
+download_url: http://cl.ly/1j1B0B0H0D3P/download/Last%20Night%20a%20DJ%20Ate%20My%20Wife.mp3
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=3f6c9204-a6ad-4657-b33c-c8a6f03b403a&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Flast-night-a-dj-ate-my-wife%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0" frameborder="0"
+
+---

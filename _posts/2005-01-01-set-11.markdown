@@ -1,0 +1,14 @@
+---
+layout: default
+title: spring-a-ling
+modal-id: 3
+date: 2014-07-18
+img: ceres.png
+alt: ceres-alchemy-symbol
+music_types: house, tech house, love songs, spring thaw
+description: Sometimes you just need a nice unambitious house mix to accompany some dancing around the house. Finally, the spring thaw. Shout out to old school Macalester raves in the late 90s.
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/spring-a-ling/
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=efb69db5-34d5-440d-9099-1a7b2aaf9513&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fspring-a-ling%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+
+
+---

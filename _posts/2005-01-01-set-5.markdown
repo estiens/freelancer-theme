@@ -1,0 +1,13 @@
+---
+title: no masters, no slaves (short mix)
+layout: default
+modal-id: 8
+date: 2014-07-15
+img: phosphorus.png
+alt: image-alt
+music_types: minimal, tech house, hip hop instrumental, psychedelic
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/no-masters-no-slaves-short-mix/
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=dba04432-1a36-4b0c-9020-c90fec195598&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fno-masters-no-slaves-short-mix%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+description: Sweet little mix starting with the Talking Heads and making its way through some minimal techno, some tech house, some Doomtree instrumentals, some Cody ChestnuTT, and ending with some psychedelic chill-out
+
+---

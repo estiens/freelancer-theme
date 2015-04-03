@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 11
+date: 2014-07-16
+img: sublimate.png
+alt: image-alt
+title: what you mean you ain't nasty
+description: Nothing subtle here. Just a bunch of bangers.
+music_types: acid, trap, hip hop
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/what-you-mean-you-aint-nasty-acid-trap-mix/
+download_url: http://cl.ly/1b4725101C3T/download/what%20you%20mean%20you%20ain't%20nasty.mp3
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=e20185d4-7d75-4094-a9e0-b5638d16c0e3&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fwhat-you-mean-you-aint-nasty-acid-trap-mix%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+
+---

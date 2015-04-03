@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 4
+date: 2014-07-17
+img: cinnabar.png
+alt: cinnabar-alchemy-symbol
+title: sunday morning coming down hard
+music_types: dubstep, growl
+description: rub-a-dub-dub. have some bloody bass with your bloody.
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/sunday-morning-coming-down-hard/
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=0c5e37f4-4f7a-4fc6-9766-ee4c298ee3c4&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fsunday-morning-coming-down-hard%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+
+
+---

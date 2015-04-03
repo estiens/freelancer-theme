@@ -1,10 +1,11 @@
 $ ->
-  headers = $("#quotes")
+  headers = $("#quotes li")
   quotes = []
-  index = Math.floor(Math.random() * quotes.length);
   headers.each ->
     quotes.push $(this).text()
+  index = Math.floor(Math.random() * quotes.length);
   quote = quotes[index]
+
   $('#random-header').html(quote)
   $(".set-img").hover(
     (ev) ->
@@ -12,9 +13,9 @@ $ ->
       $(this).velocity({rotateZ: randIndex, 500})
       $(this).css("-webkit-filter": "invert(0)")
       $(this).css("filter": "invert(0)")
-      $(this).parent().parent().find('.set-title').css("color":"rgba(0,0,0,.9)")
+      $(this).parent().parent().find('.set-title').show();
     (ev) ->
-      $(this).parent().parent().find('.set-title').css("color":"white"))
+      $(this).parent().parent().find('.set-title').hide();)
       # $(this).parent().parent().find('.title').velocity({"margin-top": "+=100px" }))
   animationFields = $('.set-img')
 

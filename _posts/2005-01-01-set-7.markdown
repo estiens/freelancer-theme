@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 10
+date: 2014-07-15
+img: salt.png
+alt: image-alt
+title: money isn't real
+description: some glitch hop, some hip hop, some dubstep, some techno, the usual. support your local gift economy. mixed for beltane 2010.
+music_types: techno, glitch hop, hip hop, dubstep
+mixcloud_direct_link: https://www.mixcloud.com/growltiger23/money-isnt-real-consensual-hallucination-mix/
+download_url: http://cl.ly/2q3t260U1M3c/download/Money%20Isn't%20Real.mp3
+mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=eba01759-b6f5-4778-968b-45c1b98b72f5&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Fmoney-isnt-real-consensual-hallucination-mix%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
+
+---

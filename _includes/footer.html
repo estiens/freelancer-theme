@@ -1,43 +1,57 @@
     <!-- Footer -->
-    <footer class="text-center">
+    <footer>
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
-                        <p>
-                            {% for address in site.address %}
-                                {{ address.line }} <br>
-		                    {% endfor %}
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-		                    {% endfor %}
+                        <h3>DOWNLOADABLE SETS</h3>
+                        <ul style="margin-left:-40px">
+                            {% assign posts = site.posts | shuffle %}
+                            {% for post in posts %}
+                                {% if post.download_url %}
+                                <li><a href={{ post.download_url }}>{{ post.title || downcase }}</a><br /></li>
+                                {% endif %}
+                            {% endfor %}
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                        <h3>Genres Suck</h3>
+                        <p>Tech House<br/>
+                        Techno<br/>
+                        Trap<br/>
+                        Glitch<br/>
+                        Illbient<br/>
+                        Acid<br/>
+                        Hip Hop</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Credits</h3>
+                        <ul style="margin-left:-40px">
+                            <li><a href="https://www.ableton.com/">Ableton</a> for the software</li>
+                            <li><a href="http://www.akaipro.com/product/apc40">Akai</a> for the hardware</li>
+                            <li><a href="https://thenounproject.com/StudioFibonacci/">Studio Fibonacci</a> for the alchemy icons</li>
+                            <li><a href="http://jekyllrb.com/">Jekyll</a> for the site generator</li>
+                            <li>jeromelachaud for the <a href="https://github.com/jeromelachaud/freelancer-theme">original theme</a> this was based on</li>
+                            <li><a href="http://www.heroku.com">Heroku</a> for the hosting</li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
         </div>
         <ul id="quotes" style="display:none">
             {% for header in site.data.headers %}
-                <li>{{header.name}}</li>
+                <li>{{header.header}}</li>
             {% endfor %}
         </ul>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-10">
                         <a class="quote" href="#page-top" id="random-header"></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="http://www.mixcloud.com/growltiger23" style="color:white">MIXCLOUD</a>
                     </div>
                 </div>
             </div>

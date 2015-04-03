@@ -9,15 +9,15 @@ $ ->
   $('#random-header').html(quote)
   $(".set-img").hover(
     (ev) ->
-      randIndex = Math.floor((Math.random() * 200) - 100)
+      randIndex = Math.floor((Math.random() * 100) - 50)
       $(this).velocity({rotateZ: randIndex, 500})
       $(this).css("-webkit-filter": "invert(0)")
       $(this).css("filter": "invert(0)")
       $(this).parent().parent().parent().find('.set-title').css("color":"#FD6E8A");
-      $(this).parent().parent().parent().find('.set-title').fadeIn("slow");
+      $(this).parent().parent().parent().find('.set-title').fadeIn(1000);
     (ev) ->
-      $(this).parent().parent().parent().find('.set-title').css("color":"white");
-      $(this).parent().parent().parent().find('.set-title').hide();)
+      # $(this).parent().parent().parent().find('.set-title').css("color":"white");
+      $(this).parent().parent().parent().find('.set-title').fadeOut(500);)
 
   animationFields = $('.set-img')
 

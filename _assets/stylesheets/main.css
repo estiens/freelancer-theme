@@ -222,7 +222,7 @@ header .intro-text .skills {
 }
 
 .navbar li a:hover {
-    color:black!important;
+    color:#1485CC!important;
 }
 
 .navbar a:focus {
@@ -518,4 +518,12 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.live li {
+    list-style: none;
+}
+
+.live a {
+    color: #FD6E8A;
 }

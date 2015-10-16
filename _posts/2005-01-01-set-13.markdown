@@ -6,8 +6,7 @@ img: vitriol.png
 alt: vitriol-alchemy-symbol
 title: acidwashed
 music_types: techno, tech house, drone, dub techno, psychedelic
-description: how was your burn? subtitled songs to teach your kids about patience.
-melodic and psychedelic techno all delayed and reverbed. wait for it. find the others.
+description: how was your burn? subtitled songs to teach your kids about patience. melodic and psychedelic techno all delayed and reverbed. wait for it. find the others.
 download_url: http://cl.ly/313n1s3p0v2g
 mixcloud_direct_link: https://www.mixcloud.com/growltiger23/acidwashed/
 mixcloud_url: https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=04d11425-ca0b-4340-a767-3e3b6328dda7&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2Fgrowltiger23%2Facidwashed%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0
